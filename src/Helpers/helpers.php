@@ -1,6 +1,6 @@
 <?php
 
-use CodexShaper\PWA\Model\Setting;
+use XslainPwa\PWA\Model\Setting;
 
 if (!function_exists('pwa_asset')) {
     /**

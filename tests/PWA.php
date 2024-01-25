@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\PWA\Test;
+namespace XslainPwa\PWA\Test;
 
 use PHPUnit\Framework\TestCase;
 

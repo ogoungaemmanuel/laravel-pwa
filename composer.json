@@ -1,5 +1,5 @@
 {
-    "name": "codexshaper/laravel-pwa",
+    "name": "xslainpwa/laravel-pwa",
     "description": "Laravel Progressive Web App",
     "keywords": [
         "laravel", "pwa", "progressive", "web", "app", 
@@ -8,10 +8,10 @@
         "ios", "android", "chrome", "safari", "firefox" 
     ],
     "license": "MIT",
-    "homepage": "https://github.com/Codexshaper/laravel-pwa",
+    "homepage": "https://github.com/Xslainpwa/laravel-pwa",
     "support": {
-        "issues": "https://github.com/Codexshaper/laravel-pwa/issues",
-        "source": "https://github.com/Codexshaper/laravel-pwa"
+        "issues": "https://github.com/Xslainpwa/laravel-pwa/issues",
+        "source": "https://github.com/Xslainpwa/laravel-pwa"
     },
     "authors": [
         {
@@ -22,31 +22,31 @@
     "type": "library",
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.0|^7.1|^7.2|^7.3|^7.4|^8.0",
-        "illuminate/support": "^5.6|^6.0|^7.0|^8.0"
+        "php": "^8.1",
+        "illuminate/support": "^10.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.0|^8.0",
-        "orchestra/testbench": "^4.0"
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0"
     },
     "autoload": {
         "psr-4": {
-            "CodexShaper\\PWA\\": "src/"
+            "XslainPwa\\PWA\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CodexShaper\\PWA\\": "src/",
-            "CodexShaper\\PWA\\Test\\": "tests/"
+            "XslainPwa\\PWA\\": "src/",
+            "XslainPwa\\PWA\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "CodexShaper\\PWA\\PwaServiceProvider"
+                "XslainPwa\\PWA\\PwaServiceProvider"
             ],
             "aliases": {
-                "PWA": "CodexShaper\\PWA\\Facades\\PWA"
+                "PWA": "XslainPwa\\PWA\\Facades\\PWA"
             }
         }
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\PWA\Commands;
+namespace XslainPwa\PWA\Commands;
 
-use CodexShaper\PWA\PwaServiceProvider;
+use XslainPwa\PWA\PwaServiceProvider;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Input\InputOption;

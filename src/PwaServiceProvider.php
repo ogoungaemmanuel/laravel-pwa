@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\PWA;
+namespace XslainPwa\PWA;
 
-use CodexShaper\PWA\Commands\InstallPwa;
+use XslainPwa\PWA\Commands\InstallPwa;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
 

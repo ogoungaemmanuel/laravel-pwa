@@ -1,8 +1,8 @@
 <?php
 
-namespace CodexShaper\PWA\Http\Controllers;
+namespace XslainPwa\PWA\Http\Controllers;
 
-use CodexShaper\PWA\Model\Setting;
+use XslainPwa\PWA\Model\Setting;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
@@ -106,7 +106,7 @@ class PwaController extends Controller
      * Update the specified resource in storage.
      *
      * @param \Illuminate\Http\Request       $request
-     * @param \CodexShaper\PWA\Model\Setting $Setting
+     * @param \XslainPwa\PWA\Model\Setting $Setting
      *
      * @return \Illuminate\Routing\Redirector|\Illuminate\Http\RedirectResponse
      */
@@ -169,7 +169,7 @@ class PwaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param \CodexShaper\PWA\Model\Setting $Setting
+     * @param \XslainPwa\PWA\Model\Setting $Setting
      *
      * @throws \Exception
      *
@@ -488,7 +488,7 @@ REGISTER_SERVICE_WORKER;
     /**
      * Get Setting instance.
      *
-     * @return \CodexShaper\PWA\Model\Setting
+     * @return \XslainPwa\PWA\Model\Setting
      */
     public function getPwaInstance()
     {

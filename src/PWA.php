@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\PWA;
+namespace XslainPwa\PWA;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Response;

@@ -1,6 +1,6 @@
 <?php
 
-namespace CodexShaper\PWA\Model;
+namespace XslainPwa\PWA\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
